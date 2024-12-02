@@ -21,6 +21,7 @@ export default function UsesOfPrimitives() {
                     alt="Diffie-Hellman Key Exchange"
                     style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }}
                 />
+                <p>source: Understanding Cryptography by Christof Paar & Jan Pelzl</p>
                 <p>In here α is equal to 2 it is valid for the choosed prime number (29) </p>
                 <p>Why Any Value Cannot Be a Primitive Root in Diffie-Hellman Key Exchange?
                     In the Diffie-Hellman Key Exchange, a primitive root is a critical component because it ensures the security and proper functioning of the algorithm.
