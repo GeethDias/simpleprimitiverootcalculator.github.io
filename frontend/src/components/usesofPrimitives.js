@@ -4,6 +4,7 @@ export default function UsesOfPrimitives() {
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif', listStyle: 'None' }}>
             <h2>Uses of Primitive Roots</h2>
+            <i>
             <p>
                 Primitive roots play an important role in various fields of mathematics and computer science.
                 They are particularly useful in areas that involve modular arithmetic. Here are some common
@@ -72,6 +73,7 @@ export default function UsesOfPrimitives() {
                 These applications demonstrate the importance of primitive roots in both theoretical and practical
                 domains.
             </p>
+            </i>
         </div>
     );
 }

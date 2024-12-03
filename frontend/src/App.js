@@ -58,9 +58,10 @@ function App() {
           <h1>Primitive Root Calculator</h1>
           <br></br>
           <p>
-  A primitive root is an important concept in number theory and cryptography, particularly in algorithms like Diffie-Hellman Key Exchange. 
+  <i>A primitive root is an important concept in number theory and cryptography, particularly in algorithms like Diffie-Hellman Key Exchange. 
   This calculator helps you find all the primitive roots of a given prime number. By entering a valid prime number, you can determine the 
   set of integers that generate all possible remainders modulo that prime, which can be pivotal in secure communication and encryption systems.
+</i>
 </p>
         </Col>
       </Row>

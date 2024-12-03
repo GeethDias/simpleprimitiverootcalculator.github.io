@@ -4,6 +4,7 @@ export default function AboutPrimitive() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h2>What are Primitive Roots?</h2>
+      <i>
       <p>
         In modular arithmetic, a <strong>primitive root</strong> of a prime number 
         <em> p</em> is any number <em> g</em> such that the powers of <em> g</em>, 
@@ -32,6 +33,7 @@ export default function AboutPrimitive() {
       <p>
         The powers of 3 modulo 7 generate all the numbers from 1 to 6.
       </p>
+      </i>
     </div>
   );
 }
