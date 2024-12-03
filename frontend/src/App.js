@@ -10,7 +10,8 @@ import './App.css';
 function App() {
   const [prime, setPrime] = useState('');
   const [result, setResult] = useState([]);
-  const [loading, setLoading] = useState(false); // Manage loading state
+  const [loading, setLoading] = useState(false); 
+
 
   const isPrimitiveRoot = (root, p) => {
     const seen = new Set();
@@ -30,17 +31,18 @@ function App() {
       return;
     }
 
-    setLoading(true); // Start loading
+    setLoading(true); //To start the loading 
     setTimeout(() => {
       const roots = [];
       for (let i = 1; i < p; i++) {
         if (isPrimitiveRoot(i, p)) roots.push(i);
       }
       setResult(roots);
-      setLoading(false); // Stop loading
+      setLoading(false); //To stop the loading circle
     }, 2000); // Simulate delay for better UX
   };
 
+  //check if the entered values is prime or not
   const isPrime = (num) => {
     if (num < 2) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -83,6 +85,7 @@ function App() {
               </Form>
               {loading && (
                 <div className="text-center mt-3">
+                  {/*spinner in action */}
                   <Spinner animation="border" role="status" variant="primary">
                     <span className="visually-hidden">Loading...</span>
                   </Spinner>
@@ -101,12 +104,14 @@ function App() {
 
       <Row className="my-4">
         <Col>
+        {/*Get contents from AboutPrimitive component*/}
           <AboutPrimitive />
         </Col>
       </Row>
 
       <Row className="my-4">
         <Col>
+        {/*Get contents from UsesofPrimitives*/}
           <UsesOfPrimitives />
         </Col>
       </Row>
